@@ -60,7 +60,7 @@ li a{
     width: 97px;
     height: 96px;
     position: absolute;
-    right: 1818px;
+    right: 1830px;
 }
 #judul{
     font-family: 'Candara';
@@ -95,5 +95,40 @@ li a{
     top: 67px;
     left: 743px;
     z-index: -1;
+    
+}
+li a:hover:not(.active){
+    border-bottom: 2px solid orange;
+    
+}
+.label_username{
+    font-family: 'Candara';
+    font-size: 47px;
+    font-style: italic;
+    font-weight: bold;
+    margin:auto;
+    position:relative;
+    z-index: 9;
+    bottom: 482px;  
+    left: 93px;
+
+}
+#name{
+    position: absolute;
+    width: 357px;
+    border-radius: 20px;
+    height: 87px;
+    bottom: 400px;
+    left: 326px;
+    background-color: #D0537F;
+    z-index: 10;
+ 
+}  
+
+
+::placeholder{
+    color: white;
+    font-size: 40px;
+    position: absolute;
     
 }
